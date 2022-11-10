@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\n\ A\ class\ representing\ the\ characteristics\ of\ a\ plant.\ Plants\ can\ age,\ spread\ and\ die.\n\n\ @author\ Charlie\ Madigan(K19019003),\ Kacper\ Dudzinski\ (K1921541)\n\ @version\ 2020.02.21\n
+comment1.params=randomStart\ field\ location
+comment1.target=Plant(boolean,\ Field,\ Location)
+comment1.text=\n\ Create\ a\ new\ plant\ at\ location\ in\ field.\ A\ plant\ can\ be\ created\ as\ a\ newborn\ \n\ (age\ zero)\ or\ with\ a\ random\ age.\n\ \n\ @param\ \ randomStart\ \ Whether\ the\ plant\ starts\ 'newborn'\ or\ with\ random\ stats.\n\ @param\ \ field\ \ The\ field\ currently\ occupied.\n\ @param\ \ location\ \ The\ location\ within\ the\ field.\n
+comment2.params=
+comment2.target=int\ getMaxAge()
+comment2.text=\n\ @return\ \ The\ maximum\ age\ to\ which\ a\ plant\ can\ live.\n
+comment3.params=newPlants\ dayTime
+comment3.target=void\ act(java.util.List,\ boolean)
+comment3.text=\n\ Make\ this\ plant\ act\ -\ that\ is\:\ make\ it\ do\ whatever\ it\ wants/needs\ to\ do.\n\ \n\ @param\ \ newPlants\ \ A\ list\ to\ receive\ newly\ grown\ plants.\n\ @param\ \ dayTime\ \ Whether\ it\ is\ day-time.\n
+numComments=4

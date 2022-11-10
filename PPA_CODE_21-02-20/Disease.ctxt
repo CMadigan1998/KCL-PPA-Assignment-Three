@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Disease
+comment0.text=\n\ Represents\ a\ disease.\ A\ disease\ can\ infect\ animals.\ Once\ an\ animal\ is\ infected,\ it\ may\ spread\ the\ disease,\ attempt\ to\ cure\ itself\ of\ the\ disease\ or\n\ die\ from\ the\ disease.\n\n\ @author\ Charlie\ Madigan(K19019003),\ Kacper\ Dudzinski\ (K1921541)\n\ @version\ 2020.02.21\n
+comment1.params=
+comment1.target=Disease()
+comment2.params=
+comment2.target=boolean\ attemptInfect()
+comment2.text=\n\ @return\ \ True\ if\ the\ animal\ catches\ the\ disease,\ false\ otherwise.\n
+comment3.params=
+comment3.target=boolean\ attemptSpread()
+comment3.text=\n\ @return\ \ True\ if\ the\ animal\ spreads\ from\ one\ animal\ to\ another,\ false\ otherwise.\n
+comment4.params=
+comment4.target=boolean\ attemptCure()
+comment4.text=\n\ @return\ \ True\ if\ the\ animal\ becomes\ cured\ of\ the\ disease,\ false\ otherwise.\n
+comment5.params=
+comment5.target=boolean\ attemptKill()
+comment5.text=\n\ @return\ \ True\ if\ the\ animal\ dies\ from\ the\ disease,\ false\ otherwise.\n
+comment6.params=
+comment6.target=int\ getTotalNumberKilled()
+comment6.text=\n\ @return\ \ The\ total\ number\ killed\ by\ disease.\n
+numComments=7
